@@ -1,0 +1,108 @@
+body {
+    background-color: #0f41068f;
+    color: rgb(194, 7, 7);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #f7f4f4;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    color:#e60606ce;
+
+}
+nav {
+    background-color: #16213e;
+    padding: 15px 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color:#e60606ce;
+}
+.eslogan {
+    font-size:40px;
+    color:rgb(30, 6, 70);
+}
+.tarjetas-eventos{
+    display:flex;
+    text-align: center;
+    background-color:rgba(206, 205, 205, 0.671);
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.card{
+    background-color:#16213e;
+    padding: 50px;
+    border-radius:60px;
+    width:250px;
+    color: rgb(248, 252, 252);
+    text-align: center;
+}
+.card p{
+    font-size: 19px;
+}
+.card button{
+    font-size: 20px;
+    padding: 15px;
+    background-color: #b1bb78f3;
+    color:white;
+    border-radius:30px;
+    justify-content: center;
+}
+.card button:hover{
+    background-color:rgb(49, 114, 71);
+}
+.botones-admin button{
+    font-size: 20px;
+    padding:30px;
+    background-color: rgb(216, 230, 91);
+    border-radius: 20px;
+    justify-content: center;
+   
+    
+}
+.botones-admin{
+    display:flex;
+    justify-content: center;
+     gap:30px;
+}
+.botones-admin button:hover{
+    background-color:rgb(49, 114, 71);
+
+}
+.tarjetas-carreras {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
