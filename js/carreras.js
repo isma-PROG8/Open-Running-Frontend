@@ -19,7 +19,7 @@ fetch(`http://localhost:8080/api/eventos/${eventoId}/carreras`)
         <div class="card">
         <h2>${renombreModalidad(carrera.modalidad)}</h2>
         
-        <button>Ver detalles</button>
+        <button onclick="window.location='carrera-detalle.html?carreraId=${carrera.id}'">Ver Detalles</button>
         </div>
    
         `;

@@ -15,8 +15,7 @@ fetch("http://localhost:8080/api/eventos")
                     <h2>${evento.nombre}</h2>
                     <p>${evento.ciudad}</p>
                     <p>${formatearFecha(evento.fecha)}</p>
-                    <button onclick="window.location='carreras.html?
-                    eventoId=${evento.id}'">Ver Carreras</button>
+                    <button onclick="window.location='carreras.html?eventoId=${evento.id}'">Ver Carreras</button>
                 </div>
             `;
         });

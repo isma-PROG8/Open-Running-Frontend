@@ -103,6 +103,37 @@ nav {
     flex-wrap: wrap;
     gap: 20px;
 }
+#formulario-inscripcion {
+    background-color: #16213e;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex !important;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+#formulario-inscripcion input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+#formulario-inscripcion button {
+    padding: 10px;
+    background-color: #e94560;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#formulario-inscripcion button:hover {
+    background-color: #c73652;
+}
 
 
 
