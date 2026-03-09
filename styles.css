@@ -134,6 +134,26 @@ nav {
 #formulario-inscripcion button:hover {
     background-color: #c73652;
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #16213e;
+    color: white;
+}
+
+tr:hover {
+    background-color: rgba(255,255,255,0.1);
+}
 
 
 

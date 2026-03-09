@@ -20,10 +20,32 @@
         </nav>
         <h1>Panel de Administrador</h1>
         <div class="botones-admin">
-        <button> Crear Evento</button>
-        <button> Ver Eventos</button>
-        <button> Ver Inscripciones</button>
-        <button> Eliminar Evento</button>
-    </div>
+        <button id="btn-crear-evento">Crear Evento</button>
+        <button id="btn-ver-eventos">Ver Eventos</button>
+        <button id="btn-ver-inscripciones">Ver Inscripciones</button>
+        </div>
+        <section id="crear-evento" style="display:none"><h2>Crear Evento</h2>
+             <input type="text" placeholder="Nombre" id="nombre-evento">
+             <input type="datetime-local" id="fecha-evento">
+             <input type="text" placeholder="Ciudad" id="ciudad-evento">
+             <input type="number" placeholder="Plazas máximas" id="plazas-max">
+             <button id="btn-guardar-evento">Guardar Evento</button>
+             <input type="checkbox" id="diez-k"> <label for="diez-k">10K</label>
+<input type="checkbox" id="media-maraton"> <label for="media-maraton">Media Maratón</label>
+<input type="checkbox" id="maraton"> <label for="maraton">Maratón</label>
+        </section>
+        <section id="ver-eventos" style="display:none"><h2>Ver Eventos</h2></section>
+       
+        <section id="ver-inscripciones" style="display:none">
+    <h2>Ver Inscripciones</h2>
+    <select id="selector-evento">
+        <option value="">Selecciona un evento</option>
+    </select>
+    <div id="lista-inscripciones"></div>
+</section>
+
+
+        <script src="js/admin.js"></script>
+    
         </body>
     
