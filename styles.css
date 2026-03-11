@@ -4,11 +4,20 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    
+    background-image: url('img/paisajeGris.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
+
 h1 {
-    color: #f7f4f4;
+    color: #d32020;
     text-align: center;
+    text-shadow: 2px 2px 4px rgb(107, 104, 104);
+    font-size: 50px;
+    
 }
 
 p {
@@ -17,6 +26,9 @@ p {
 
 h2 {
     color:#e60606ce;
+    text-shadow: 2px 2px 4px black;
+    
+    
 
 }
 nav {
@@ -71,20 +83,21 @@ nav {
 .card button{
     font-size: 20px;
     padding: 15px;
-    background-color: #b1bb78f3;
+    background-color: #be3c3cf3;
     color:white;
     border-radius:30px;
     justify-content: center;
 }
 .card button:hover{
-    background-color:rgb(49, 114, 71);
+    background-color:rgb(236, 136, 136);
 }
 .botones-admin button{
     font-size: 20px;
     padding:30px;
-    background-color: rgb(216, 230, 91);
+    background-color: rgb(146, 146, 137);
     border-radius: 20px;
     justify-content: center;
+    
    
     
 }
@@ -94,7 +107,7 @@ nav {
      gap:30px;
 }
 .botones-admin button:hover{
-    background-color:rgb(49, 114, 71);
+    background-color:rgb(169, 196, 178);
 
 }
 .tarjetas-carreras {
@@ -105,12 +118,11 @@ nav {
 }
 #formulario-inscripcion {
     background-color: #16213e;
-    padding: 30px;
+    padding: 80px;
     border-radius: 10px;
-    display: flex !important;
     flex-direction: column;
     gap: 15px;
-    width: 300px;
+    width: 500px;
     margin: 20px auto;
 }
 
@@ -153,6 +165,50 @@ th {
 
 tr:hover {
     background-color: rgba(255,255,255,0.1);
+}
+.hero {
+    background-image: url('img/paisajeGris.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hero-contenido {
+    text-align: center;
+    color: rgb(66, 65, 65);
+    text-shadow: 2px 2px 4px black;
+}
+
+.btn-hero {
+    font-size: 20px;
+    padding: 15px 30px;
+    background-color: #e92525;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-hero:hover {
+    background-color: #c73652;
+}
+.frase-carrera {
+    font-size: 22px;
+    color: rgb(53, 52, 52);
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 20px;
+    text-align: right;
+    margin-right: 200px;
+}
+.frases-carrera li {
+    margin-bottom: 10px;
+}
+ul {
+    list-style: none;
 }
 
 

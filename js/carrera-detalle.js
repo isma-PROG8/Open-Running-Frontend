@@ -14,6 +14,12 @@ fetch(`http://localhost:8080/api/carreras/${carreraId}`)
 .then(carrera => {
     const contenedor = document.getElementById("detalles-carrera");
     contenedor.innerHTML = `
+    <ul class="frase-carrera">
+    <li>El running no es solo un deporte, es una filosofía de vida que te enseña que con esfuerzo y constancia todo es posible</li>
+    <li>Cuando tus piernas quieran parar y tu mente te diga que ya es suficiente, recuerda por qué empezaste</li>
+    <li>No importa lo lento que vayas, siempre irás más rápido que el que se quedó en el sofá</li>
+
+    </ul>
         <div class="card">
             <h2>${renombreModalidad(carrera.modalidad)}</h2>
             <p>Plazas disponibles: ${carrera.plazasMax}</p>
@@ -21,7 +27,7 @@ fetch(`http://localhost:8080/api/carreras/${carreraId}`)
         </div>
     `;
     document.getElementById("btn-inscribirse").onclick = function() {
-    document.getElementById("formulario-inscripcion").style.display = "block";
+    document.getElementById("formulario-inscripcion").style.display = "flex";
 }
 })
 document.getElementById("btn-confirmar").onclick = function() {
